@@ -28,7 +28,7 @@ p{
   margin: auto;
 }
 
-.heder-conteiner{
+.header-container{
  display: flex;
 }
 
@@ -36,7 +36,7 @@ header{
  border-bottom: 1px solid #e7e9fc;
 }
 
-.conteiner{
+.container{
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
@@ -51,7 +51,7 @@ header{
     color: #434455;
 }
 
-.heder-nav{
+.header-nav{
 display: flex;
 align-items: center;
 }
@@ -91,7 +91,7 @@ align-items: center;
     color: #404bbf;
 }
 
-.address-heder{
+.address-header{
 display: flex;
 gap: 40px;
 }
