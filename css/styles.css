@@ -160,7 +160,7 @@ gap: 40px;
 
 .visually-hidden{
     visibility: hidden;
-    pointer-events: none;
+   display: none;
 }
 
 .info{
