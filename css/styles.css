@@ -34,8 +34,6 @@ p{
 
 header{
  border-bottom: 1px solid #e7e9fc;
- padding-top: 24px;
- padding-bottom: 24px;
 }
 
 .conteiner{
@@ -62,6 +60,7 @@ align-items: center;
  display: flex;
  align-items: center;
  gap: 40px;
+ padding: 24px 0
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -84,7 +83,6 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0
 }
 
 .nav-link:hover,
@@ -101,6 +99,8 @@ gap: 40px;
 .address {
     font-style: normal;
     margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-link {
@@ -121,7 +121,6 @@ gap: 40px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
     padding-left: 316px;
     padding-bottom: 48px;
@@ -138,9 +137,11 @@ gap: 40px;
 
 .button{
  display: block;   
-padding: auto;
+ margin: auto;
 text-align: center;
 border: none;
+min-width: 169px;
+height: 56px;
 }
 
 .hero-order-btn {
@@ -162,14 +163,20 @@ border: none;
     background-color: #404bbf;
 }
 
+.fake-list{
+    display: none;
+    visibility: hidden;
+}
+
 .info{
  padding-top: 120px;
  padding-bottom: 120px;
+ 
 }
 
 .info-list{
 display: flex;
-gap: 24px;
+flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .text-list-name-info {
@@ -188,8 +195,7 @@ gap: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
-    padding-top: 32px;
+    margin-bottom: 8px;
 }
 
 .text-list-strenghts {
@@ -198,9 +204,14 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    max-width: 264px;
+}
+
+.last-name{
+    padding: 32px 0;
+    border-radius: 0px 0px 4px 4px;
 }
  
-
 .team-link{
  display: flex;
  gap: 24px;
@@ -208,7 +219,6 @@ gap: 24px;
 
 .text-tema{
   text-align: center;
-  padding-bottom: 32px;
 }
 
 .team {
@@ -229,15 +239,14 @@ gap: 24px;
     row-gap: 48px;
 }
 
-.portfolio-link{
-   margin-left: 16px;
-   margin-top: 32px;
-   margin-bottom: 8px; 
+.portfolio-name{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none; 
 }
 
-.portfolio-text{
-   margin-bottom: 32px; 
-   margin-left: 16px;
+.portfolio-link{
+   margin-bottom: 8px; 
 }
 
 .name-list {
@@ -247,7 +256,7 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -291,8 +300,6 @@ gap: 24px;
     color: #f4f4fd;
     width: 364px;
     margin-left: 0;
-    margin-top: 16px;
-
 }
 
 .logo-footer {
@@ -300,6 +307,7 @@ gap: 24px;
 }
 
 .logo-part-footer{
+    display: inline-block; 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -307,4 +315,5 @@ gap: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px; 
 }
