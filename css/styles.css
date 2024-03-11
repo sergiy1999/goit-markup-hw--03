@@ -13,7 +13,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: currentColor
+    color: currentColor;
 }
 
 img{
@@ -69,7 +69,8 @@ align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
+    text-align: center;
 }
 
 .logo-part {
@@ -86,9 +87,8 @@ align-items: center;
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.nav-link:visited {
-    color: #404bbf;
+.nav-link:focus {
+ color: #404bbf;
 }
 
 .address-header{
@@ -169,7 +169,7 @@ gap: 40px;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
- }
+  }
 
 .info{
  padding-top: 120px;
@@ -249,7 +249,12 @@ gap: 24px;
 }
 
 .portfolio-link{
-   margin-bottom: 8px; 
+   margin-bottom: 8px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
 }
 
 .name-list {
@@ -303,7 +308,7 @@ gap: 24px;
 
 .footer .text-footer{
     color: #f4f4fd;
-    width: 364px;
+     max-width: 264px;
     margin-left: 0;
 }
 
